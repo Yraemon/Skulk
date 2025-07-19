@@ -22,7 +22,6 @@ end
 % Some useful book-keeping variables used frequently later
 neuronNumEdges = (0:neurons.N) - 0.5; % bin edges for using histcounts to count neuron cluster IDs in spikes
 
-
 %% Define the combinations
 combinations(1).areaID = 10; % VISp
 combinations(1).eventName = 'stimTimes';
